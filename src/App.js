@@ -1,11 +1,13 @@
-import React from "react";
+import './styles.css';
+import Routes from './routes';
+import Header from './Components/Header';
 
-export default function App(){
+//https://sujeitoprogramador.com/r-api/?api=filmes/
+
+export default function App() {
   return (
-    <div>
-      <h1>
-        Olá
-      </h1>
+    <div className="app">
+      <Routes/>
     </div>
   );
 }
